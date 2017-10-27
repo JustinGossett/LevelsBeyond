@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{C393DAD8-BB70-4CB7-9FEB-DFF198B99DE4}|Default">
+  <MonoDevelop.Ide.ItemProperties.NotesApi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NotesApi/Startup.cs">
+    <Files>
+      <File FileName="NotesApi/Controllers/NotesController.cs" Line="101" Column="38" />
+      <File FileName="NotesApi/Models/NotesContext.cs" Line="6" Column="47" />
+      <File FileName="NotesApi/Models/NotesItem.cs" Line="4" Column="36" />
+      <File FileName="NotesApi/Properties/launchSettings.json" Line="30" Column="1" />
+      <File FileName="NotesApi/Startup.cs" Line="19" Column="26" />
+      <File FileName="NotesApi/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

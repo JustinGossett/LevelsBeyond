@@ -1,0 +1,564 @@
+<html>
+	<head>
+		<style>
+			table {font-family: arial, sans-serif;border-collapse: collapse;width: 100%;}
+			th {border: 4px solid #000000;text-align: left;padding: 8px;width: 10%}
+			td {border: 4px solid #000000;text-align: left;padding: 8px;width: 90%}
+		</style>
+		<title>Issues of the last 7 days</title>
+	</head>
+	<body>
+		<h1>Issues of the last 7 days</h1>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Allow option to suppress duplicate errors in angular -cli during AOT compile</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>abidmix</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>### Bug Report or Feature Request (mark with an `x`)\r\n```\r\n- [x ] bug report -> please search issues before submitting\r\n- [ x] feature request\r\n```\r\n\r\n### Versions.\r\n\r\nC:\\PMLCLI\\Phoenix\\Phoenix_LMS\\Phoenix.Web>ng --version\r\n    _                      _                 ____ _     ___\r\n   / \\   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|\r\n  / △ \\ | '_ \\ / _` | | | | |/ _` | '__|   | |   | |    | |\r\n / ___ \\| | | | (_| | |_| | | (_| | |      | |___| |___ | |\r\n/_/   \\_\\_| |_|\\__, |\\__,_|_|\\__,_|_|       \\____|_____|___|\r\n               |___/\r\n@angular/cli: 1.4.4\r\nnode: 6.11.3\r\nos: win32 x64\r\n@angular/animations: 4.4.6\r\n@angular/common: 4.4.6\r\n@angular/compiler: 4.4.6\r\n@angular/core: 4.4.6\r\n@angular/forms: 4.4.6\r\n@angular/http: 4.4.6\r\n@angular/material: 2.0.0-beta.8\r\n@angular/platform-browser: 4.4.6\r\n@angular/platform-browser-dynamic: 4.4.6\r\n@angular/router: 4.4.6\r\n@angular/upgrade: 4.4.6\r\n@angular/cli: 1.4.4\r\n@angular/compiler-cli: 4.4.4\r\ntypescript: 2.3.4\r\n\r\n Windows (10)\r\n\r\n\r\n\r\n### Repro steps.\r\n\r\n\r\n![image](https://user-images.githubusercontent.com/12702893/31790638-21cc9388-b4e4-11e7-903e-c99e7be08691.png)\r\n\r\n\r\n\r\n\r\n\r\n### The log given by the failure.\r\nDuplicate Identifier in component\r\n\r\n### Desired functionality.\r\nAllow me to suppress duplicate errors or let duplicate errors not affect the emitting of code in the dist folder. I do not see any duplicate identifier in my code and the ng.factory file is never outputted which leaves me with nothing to debug.\r\n\r\n\r\n### Mention any other details that might be useful.\r\nIn my template I have code like this and I do not see why 'active' is marked as a  a duplicate identifier. This code works perfecttly fine in JIT.\r\n\r\n`[ngClass]=\"{'active': math.Name == subjectVM.SelectedMathDomain,'active': math.Title == subjectVM.SelectedDomain}\"` \r\n\r\nhttps://github.com/angular/angular-cli/issues/8119\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>run BLACK_LISTED_EVENTS outside of ngZone Documentation missing</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>Zizzamia</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>Ciao,\r\n\r\nI'm trying to use `BLACK_LISTED_EVENTS` with `5.0.0-rc.7`, but I feel it's missing the documentation to plug this feature in my production app.\r\n\r\n## I'm submitting a...\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[x] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n\r\n\r\n## Environment\r\nAngular version: 5.0.0-rc.7\r\n\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>fix(platform-server): add animations to the UMD global rollup config</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>hansl</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>This adds the proper bindings for calling animations from platform-server in the UMD.\r\nThis was not a problem for universal apps that dont use UMD.\r\n\r\nFixes #19899 \r\n\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Ctrl+Click behaviour to open new tab does not work with RouterLink when component is projected within router-outlet</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>rahul-winner</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td><!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\nCtrl+Click behaviour to open new tab is still not working when I used routerLink directive within a component which is being rendered within '<router-outlet>'\r\n\r\nFor example below code works fine and takes me to the #/jobs when I right click on hyperlink\r\n```\r\n<div>\r\n  <app-navigation></app-navigation>\r\n</div>\r\n<div>\r\n\t<a routerLink=\"jobs\">My Jobs</a>\r\n</div>\r\n<div>\r\n  <router-outlet></router-outlet>\r\n</div>\r\n```\r\n\r\nBut below code does not work\r\n```\r\n<div>\r\n  <app-navigation></app-navigation>\r\n</div>\r\n<div>\r\n  <router-outlet></router-outlet>\r\n</div>\r\n```\r\nThere is a route to 'home.component.html' present within App Navigation component.\r\n\r\n**home.component.html**\r\n```\r\n<div>\r\n\t<a routerLink=\"jobs\">My Jobs</a>\r\n</div>\r\n```\r\n\r\nI'm using Angular version 4.4.4\r\n\r\nCould anyone please help me. \r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nUser should be able to right click on a anchor tag and let it open in new tab/window and it should work as per routing.\r\n\r\n## Minimal reproduction of the problem with instructions\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\n\r\n\r\n## Environment\r\n\r\n## Angular version: 4.4.4\r\n\r\n## Browser:\r\nAll Browsers\r\n\r\n## Others:\r\nthis looks relevant to https://github.com/angular/angular/issues/5908\r\nHowever, I noticed that this issue is reproducible when component is present within router outlet.</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Map files are being written for factories that are not emitted.</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>chuckjaz</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n</code></pre>\r\n\r\n## Current behavior\r\n\r\nThe compiler will write a `.map` file for a factory file that was not emitted.\r\n\r\n## Expected behavior\r\n\r\nIf a factory is not emitted is should not produce a map file.\r\n\r\n## Minimal reproduction of the problem with instructions\r\n<!--\r\nFor bug reports please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem via\r\nhttps://plnkr.co or similar (you can use this template as a starting point: http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5).\r\n-->\r\n\r\nIn the angular sources and the aio directory, run `ngc -p src/tsconfig.app.json`.\r\n\r\nNote that a map file was produced for `custom-md-icon-registry.ngfactory.js.map` but there was no file `custom-md-icon-registry.ngfactory.js` written.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n\r\nParsimonious builds.\r\n\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>docs: ensure examples get rxjs ^5.5.0</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>wardbell</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>wardbell</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>URGENT - please merge ASAP as we have very little time to update docs before next NG release.\r\n\r\nAdded patch label as well; RxJS v.5.5 is backward compat for Ng v4\r\n\r\n## PR Checklist\r\nPlease check if your PR fulfills the following requirements:\r\n\r\n- [x] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit\r\n- [ ] Tests for the changes have been added (for bug fixes / features)\r\n- [ ] Docs have been added / updated (for bug fixes / features)\r\n\r\n\r\n## PR Type\r\nWhat kind of change does this PR introduce?\r\n\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[ ] Bugfix\r\n[ ] Feature\r\n[ ] Code style update (formatting, local variables)\r\n[x] Refactoring (no functional changes, no api changes)\r\n[ ] Build related changes\r\n[ ] CI related changes\r\n[ ] Documentation content changes\r\n[ ] angular.io application / infrastructure changes\r\n[ ] Other... Please describe:\r\n```\r\n\r\n## What is the current behavior?\r\n<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->\r\n\r\nAll doc samples get there `node_modules` from one place, `.../aio/tools/shared/examples/package.json`.\r\n\r\nThis `package.json` and its `yarn.lock` are currently pinned to RxJS <5.5 so we can't show or explain the RxJS features that we should now be recommending to everyone.\r\n\r\nIn user land, people using the CLI are getting 5.5.x today.\r\n\r\nIssue Number: #19510 concerning upgrading Docs for v5 Angular and latest CLI\r\n\r\n## What is the new behavior?\r\n\r\nInstalls latest RxJS >= 5.5.0\r\n\r\nAlthough the focus is strictly RxJS, the regenerated yarn.lock **updates all other package dependencies currently specified in `package.json`**.\r\n\r\nThat is unintentional but probably a good thing as we should be consistent.\r\nIf something goes wrong with this, we will fix it.\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[x] No - won't affect AIO. Should not affect samples. If it does, we must fix\r\n```\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>[Bug] strange behaviour with error handlers and events</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>bracco23</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[X] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\nI am trying to implement a general error handler capable of showing me a message after each error and let the application continue, but when I catch errors coming from http,  something breaks.\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nAfter I catch and rethrow an error from an http request, the application stops updating templates and everything stops working. If the error does not come from an http request (but comes from an observable), the message error updates fine.\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nNo matter what the source of the error, the application should update and respond without problems\r\n\r\n\r\n## Minimal reproduction of the problem with instructions\r\n\r\nhttps://plnkr.co/edit/9vLZqf?p=preview\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\n\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.4.5\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [x] Chrome (desktop) version 61 (64 bit)\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: v8.6.0\r\n- Platform:  Windows 10 Creator Update\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>[feature request] CSS modules support</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>JounQin</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n- [ ] Regression (a behavior that used to work and stopped working in a new release)\r\n- [ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n- [x] Feature request\r\n- [ ] Documentation issue or request\r\n- [ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\nI'd love to use CSS modules in angular, and I tried to use like following:\r\n``` ts\r\n// demo.component.ts\r\nimport classes from './demo.component.scss'\r\n\r\n@Component({\r\n  template: './demo.component.html'\r\n})\r\nexport class DemoComponent {\r\n  classes = classes\r\n  enabled = true\r\n}\r\n\r\n// demo.component.html\r\n<div [ngClass]=\"{[classes.demo]: enabled}\"></div>\r\n```\r\n\r\nIt thrown en error because `{[classes.demo]: enabled}` is invalid in template expression what seems disheartened.\r\n\r\nFor now, I can only use `<div [ngClass]=\"enabled ? classes.demo : ''\"></div>` or write another directive something like ngClass to support dynamic keys.\r\n\r\nHere is my tiny workaround directive: https://github.com/JounQin/ng-study/blob/master/src/app/directives/css-modules.directive.ts\r\n\r\nI still hope we can support built-in feature of CSS modules.</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>build: remove local yarn</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>gkalpak</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## PR Checklist\r\n- [x] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit\r\n- [ ] ~~Tests for the changes have been added (for bug fixes / features)~~\r\n- [ ] ~~Docs have been added / updated (for bug fixes / features)~~\r\n\r\n\r\n## PR Type\r\n```\r\n[x] Build related changes\r\n```\r\n\r\n\r\n## What is the current behavior?\r\nA local yarn is used in `check-environment.js`, which results in the `--integrity` check always failing (if dependencies were installed with the global yarn).\r\n\r\n\r\n## What is the new behavior?\r\nThe globally installed yarn is used in `check-environment.js` (and the `--integrity` does not fail unnecessarily).\r\n\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[x] No\r\n```\r\n\r\n\r\n## Other information\r\nThis has already been [fixed on 4.x][1].\r\n\r\n[1]: https://github.com/angular/angular/blob/7231f5e26a9d319730373ed6ea871d7d7eb2dc6c/tools/npm/check-node-modules.js#L20</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>docs(Style): fix Tentative Schedule alignment issue</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>irkan-hadi</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>Some spaces in some of the cells in \"Tentative Schedule Until September 2017\" were not vertically  aligned with same cells in the same column because spaces in the beginning of some cells were either missing or not rendered at all, this caused misalignment of the columns cells in Firefox and Google Chrome, adding a \"proper\" space in the beginning of those cells fixed this issue\r\n\r\n## PR Checklist\r\nPlease check if your PR fulfills the following requirements:\r\n\r\n- [X] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit\r\n- [X] Tests for the changes have been added (for bug fixes / features)\r\n- [X] Docs have been added / updated (for bug fixes / features)\r\n\r\n\r\n## PR Type\r\nWhat kind of change does this PR introduce?\r\n\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[ ] Bugfix\r\n[ ] Feature\r\n[ ] Code style update (formatting, local variables)\r\n[ ] Refactoring (no functional changes, no api changes)\r\n[ ] Build related changes\r\n[ ] CI related changes\r\n[X] Documentation content changes\r\n[ ] angular.io application / infrastructure changes\r\n[ ] Other... Please describe:\r\n```\r\n\r\n## What is the current behavior?\r\nCells in the same column are not vertically aligned properly\r\n\r\nIssue Number: N/A\r\n\r\n\r\n## What is the new behavior?\r\nCells in Columns are aligned properly\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[X] No\r\n```\r\n\r\n<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->\r\n\r\n\r\n## Other information\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>ERROR in RangeError: Maximum call stack size exceeded on production build and faulty export on module</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>filipesilva</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>Moved over from https://github.com/angular/angular-cli/issues/8187, opened by @BartNetJS.\r\n\r\n---\r\n\r\n### Bug Report or Feature Request (mark with an `x`)\r\n```\r\n- [x] bug report \r\n- [ ] feature request\r\n```\r\n\r\n### Versions.\r\n@angular/cli: 1.4.9\r\nnode: 8.7.0\r\nos: win32 x64\r\n@angular/animations: 4.4.6\r\n@angular/common: 4.4.6\r\n@angular/compiler: 4.4.6\r\n@angular/core: 4.4.6\r\n@angular/forms: 4.4.6\r\n@angular/http: 4.4.6\r\n@angular/platform-browser: 4.4.6\r\n@angular/platform-browser-dynamic: 4.4.6\r\n@angular/router: 4.4.6\r\n@angular/cli: 1.4.9\r\n@angular/compiler-cli: 4.4.6\r\n@angular/language-service: 4.4.6\r\ntypescript: 2.3.4\r\n\r\n### Repro steps.\r\nCreate a module and export the same module in the export tag (this is the fault)\r\n```\r\n@NgModule({\r\n  imports: [CommonModule],\r\n  exports: [ MyFaultyModule ],\r\n  declarations: [MyFaultyComponent],\r\n  providers: [],\r\n})\r\nexport class MyFaultyModule { }\r\n```\r\nBuild a production build:\r\nng build --prod\r\n\r\n### The log given by the failure.\r\nERROR in RangeError: Maximum call stack size exceeded\r\n    at StaticReflector.annotations (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:1:1)\r\n    at NgModuleResolver.resolve (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:14750:70)\r\n    at CompileMetadataResolver.getNgModuleMetadata (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15402:60)\r\n    at CompileMetadataResolver.getNgModuleSummary (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15358:52)\r\n    at PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15450:68\r\n    at Array.forEach (<anonymous>)\r\n    at CompileMetadataResolver.getNgModuleMetadata (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15445:49)\r\n    at CompileMetadataResolver.getNgModuleSummary (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15358:52)\r\n    at PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15450:68\r\n    at Array.forEach (<anonymous>)\r\n    at CompileMetadataResolver.getNgModuleMetadata (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15445:49)\r\n    at CompileMetadataResolver.getNgModuleSummary (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15358:52)\r\n    at PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15450:68\r\n    at Array.forEach (<anonymous>)\r\n    at CompileMetadataResolver.getNgModuleMetadata (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15445:49)\r\n    at CompileMetadataResolver.getNgModuleSummary (PathRemovedForDemo\\node_modules\\@angular\\compiler\\bundles\\compiler.umd.js:15358:52)\r\n\r\n### Desired functionality.\r\nThe ng cli should detect this fault and report the module that causes the call stack exception\r\n\r\n### Mention any other details that might be useful.\r\nThe issue can be found in **compile.umd.js**:\r\nfunction: **CompileMetadataResolver.prototype.getNgModuleMetadata **\r\nOn the code:\r\n\r\n```\r\n if (meta.exports) {\r\n            flattenAndDedupeArray(meta.exports).forEach(function (exportedType) {\r\n                if (!isValidType(exportedType)) {\r\n                    _this._reportError(syntaxError(\"Unexpected value '\" + stringifyType(exportedType) + \"' exported by the module '\" + stringifyType(moduleType) + \"'\"), moduleType);\r\n                    return;\r\n                }\r\n                var /** @type {?} */ exportedModuleSummary = _this.getNgModuleSummary(exportedType);                 if (exportedModuleSummary) {\r\n                    exportedModules.push(exportedModuleSummary);\r\n                }\r\n                else {\r\n                    exportedNonModuleIdentifiers.push(_this._getIdentifierMetadata(exportedType));\r\n                }\r\n            });\r\n        }\r\n```\r\n\r\n**var  exportedModuleSummary = _this.getNgModuleSummary(exportedType); \r\n=> this cause the recursion and endless loop because 'getNgModuleMetadata ' is called again for the same module** \r\n\r\nSo my suggestion is watch how deep the recusion is going, and for example start logging warnings when reached 5 nested call.\r\nSomething like this:\r\n\r\n```\r\nCompileMetadataResolver.prototype.getNgModuleMetadata = function (moduleType, throwIfNotFound, nested = 0) {\r\n        nested++;\r\n        if(nested > 4) console.warn(´nested module {moduleType.name} (level: ${nested})´)\r\n```\r\nof course function calling **getNgModuleMetadata** should be modified to.\r\n\r\nCan someone on the core cli team confirm this is a good approach?\r\n\r\nAnother approach is of course checking for the module name that is calling it self, but suppose you have something like this moduleX=>export moduleY=>exportmoduleX...\r\n\r\nIf so, I will create a pull request</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Lambda in loadChildren not handled with target ES2015+</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>staeke</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[X] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior/Expected\r\nI added a new ticket for https://github.com/angular/angular/issues/13692 since it's still an issue and that other ticket is closed.\r\n\r\nIf you have target ES2015+:\r\n\r\nWriting \r\n```\r\nloadChildren: function() {...}\r\n```\r\nworks, whereas \r\n```\r\nloadChildren: () => {...}\r\n```\r\ndoesn't. Hence, normally transpiling \"fixes\" your problem for you. Oh and plunkr does transpile for you (at least I don't know how to turn it off) so it can't be reproduced there.\r\n\r\n\r\n## Minimal reproduction of the problem with instructions\r\nsee above\r\n\r\n## Environment\r\nAngular 4.4.6 \r\n\r\nBrowser:\r\n- [ X] Chrome (desktop) version 62\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>How to apply the loading animation  when loadChildren is loading  ?</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>huantian2415</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>My app spends 2.5s  on lazyload , beacuse I put 20 components  into one loadChildren. If I divided  those components  into more  loadChildren  ,it  would be  solved;   Anyway, I just want to use one loadChildren .  Although just have no idea  about how to  use the loading animation when loadChildren is loading ;\r\nSOS;</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Site not rendering on some IOS devices [White screen of death?]</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>kenji-1996</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[x ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\nMy application which I have built and uploaded to https://callum.tech/new will not render on some IOS devices, I havnt tested this on a huge array but I have tested it on 2 devices, my personal iPhone 5 running IOS 10.3.3 and my friends iPad which I cannot recall the version.\r\nIt will simply render a white page, no matter how many refreshes, or going into 'private' etc it refuses to render.\r\nTo eliminate the potential for this being just my phone (when I first discovered the issue) I fully formatted it to factory settings and still same result, tried on multiple locations (aka varying IPs), tried VPN, wifi to mobile etc.\r\n\r\n\r\n## Expected behavior\r\nPages renders like it does in some IOS devices and andriod\r\n\r\n\r\n## Minimal reproduction of the problem with instructions\r\nHere is my full up to date github of the project: https://github.com/kenji-1996/CallumTech\r\nI am not sure how it can be fully tested, but I cannot even debug the potential console errors because I do not own a mac to use Safari 6 web inspector feature\r\n\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nI want my site to actually run\r\n\r\n##Note\r\nI have had older versions working fine on my phone, i am not sure what point it started breaking\r\n\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version:  4.4.6, is this the latest?\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [x ] Chrome (iOS) version 'CriOS/62/0/3203/70 Mobile/14G60 Safari/602.1\r\n- [x ] Safari (iOS) version 602.1\r\n \r\nFor Tooling issues:\r\n- Node version: v8.4.0\r\n- Platform:  IOS\r\n\r\nOthers:\r\n- Build using this: ng build --prod --base-href /new/ --build-optimizer\r\n\r\n</code></pre>\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>docs(aio): updated i18n guide and example</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>ocombe</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## PR Type\r\nWhat kind of change does this PR introduce?\r\n```\r\n[x] Documentation content changes\r\n```\r\n\r\n## What is the current behavior?\r\nI18n guide is outdated\r\n\r\nIssue Number: #19510\r\n\r\n\r\n## What is the new behavior?\r\nUpdated i18n guide for Angular v5+ and cli 1.5+.\r\n\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[x] No\r\n```\r\n\r\n## Things that we could add later\r\n- how to create multiple builds\r\n- how to use the new locale API for libraries/generic components\r\n- how to change base href\r\n- how to update meta data and lang attribute (for html tag)</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>[routerLink]=\"foo\",the foo is encoded</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>eminoda</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>\r\nhtml:\r\n````\r\n<a [routerLink]=\"headTab.path\">{{headTab.path}}\r\n````\r\nts，component:\r\n````\r\nheadTab.path = ['/dotrade', { pzType: 0 }]\r\n````\r\nresult:\r\n````\r\n<a _ngcontent-c2=\"\" ng-reflect-router-link=\"/dotrade;pzType=0\" class=\"\" href=\"....../dotrade;pzType%3D0\">/dotrade;pzType=0</a>\r\n````\r\nQuestion:\r\nwhy the '='  change to '%3D'\r\n\r\nwhen i change html like this，it will be ok？\r\n````\r\n<a [routerLink]=\"['/dotrade', { pzType: 0 }]\">{{headTab.path}}\r\n<a _ngcontent-c2=\"\" ng-reflect-router-link=\"/dotrade,[object Object]\" class=\"\" href=\"....../dotrade;pzType=0\">/dotrade;pzType=0</a>\r\n````</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Angular2 - Unit test case not able to Mock Service</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>jindalrohit</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>\r\nI am not able to mock user service, other service which I mocked are working fine. If I am commenting user service then unit test case is working fine. There are many components which are using user service. Unit test cases for all those components are not working in which user service is injected.\r\n\r\n**Error : Can't resolve all parameters for AlertService: ([object Object], ?, [object Object], [object Object]).**\r\n\r\nCode for Mock user service :\r\n\r\n```\r\n@Injectable() \r\nclass MockUserService {   \r\n    private data$: Observable<Object>;   \r\n    readonly user$: Observable<any>;   \r\n    readonly privilege$: Observable<any[]>;    \r\n\r\n    constructor() {     \r\n        this.data$ = Observable.of({});\r\n        this.user$ = Observable.of({ me: 'test' });     \r\n        this.privilege$ = Observable.of([{ testing: 'true' }]);   \r\n    }     \r\n\r\n    hasPrivilege(privilege): Observable<boolean> {     \r\n        return Observable.of(true);    \r\n    }  \r\n}\r\n```\r\n\r\n**I am using the mock service like this :**\r\n\r\n`{ provide: UserService, useClass: MockUserService }`\r\n\r\n\r\n\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Custom validator does not make FormGroup invalid unless there is at least one control enabled.</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>kangjinyong</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td><!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[ X ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\nCustom form validator does not make the form invalid if all controls are disabled.\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nValidator should execute regardless of state of controls.\r\n\r\n## Minimal reproduction of the problem with instructions\r\n<!--\r\nFor bug reports please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem via\r\nhttps://plnkr.co or similar (you can use this template as a starting point: http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5).\r\n-->\r\n\"Update\" button should be disabled if form is invalid (Sum is not 100). Currently this only happens when there is at least one control enabled in the FromGroup.\r\n\r\nhttps://plnkr.co/edit/yvHOPtF772we45P0VgqN\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\nSimilar to the plunker, I am validating the sum of multiple controls. If the sum is not 100, I do not want the users to be able to save the values.\r\n\r\nHowever, the validator is not executing when there are no controls enabled.\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.2.5\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [ ] Chrome (desktop) version XX\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n All\r\n\r\nFor Tooling issues:\r\n- Node version: v6.11.2  <!-- run `node --version` -->\r\n- Platform: Windows <!-- Mac, Linux, Windows -->\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Angular Animation - behaves differently in Routed Component vs. App Component</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>CanKattwinkel</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\nAnimation does not execute when the component is routed. In the reproduction repository you can find two examples of the same Animation that behave differently. If the component is routed the animation doesn't fire in the beginning (second list). If the animation is played in the AppComponent (first list) everything is fine.   \r\n\r\n![demo](https://user-images.githubusercontent.com/11500619/32090105-05df448a-baee-11e7-816a-f314adf6266b.png)\r\n\r\nOr is this wanted behavior? @matsko maybe you can say something about that.  \r\n\r\n## Expected behavior\r\nAnimation behaves the same regardless of whether the component is routed or not.\r\n\r\n## Minimal reproduction of the problem with instructions\r\nReproduction demo:\r\nhttps://cankattwinkel.github.io/animation-issue/\r\nReproduction src:\r\nhttps://github.com/CanKattwinkel/animation-issue\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n-\r\n\r\n## Environment\r\nI have tested with **5.rc6** and the most **recent version of Angular 4**  (src in Repo is 4.4.6)\r\n\r\n<pre><code>\r\n@angular/animations: 4.4.6\r\n@angular/common: 4.4.6\r\n@angular/compiler: 4.4.6\r\n@angular/core: 4.4.6\r\n@angular/forms: 4.4.6\r\n@angular/http: 4.4.6\r\n@angular/platform-browser: 4.4.6\r\n@angular/platform-browser-dynamic: 4.4.6\r\n@angular/router: 4.4.6\r\n@angular/cli: 1.4.9\r\n@angular/compiler-cli: 4.4.6\r\n@angular/language-service: 4.4.6\r\n\r\nBrowser:\r\n- [x] Chrome (desktop) version XX\r\n- [x] Chrome (Android) version XX\r\n- [?] Chrome (iOS) version XX\r\n- [x] Firefox version XX\r\n- [?] Safari (desktop) version XX\r\n- [?] Safari (iOS) version XX\r\n- [?] IE version XX\r\n- [?] Edge version XX\r\n\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>JSDoc @type annotation cause angular/compiler-cli( ngc) build failed</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>jackjoy</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\n<!-- Describe how the issue manifests. -->\r\n```\r\nThe following jsdoc-style comment was auto generated by visual studio code. When build with \r\n@angular/compiler-cli v4.4.5, it output a warning : '@type annotations are redundant with TypeScript \r\nequivalen ts', and following gulp task failed.\r\n\r\n/**\r\n\t * Data fields.\r\n\t * \r\n\t * @readonly\r\n\t * @type {IChartOptions}\r\n\t */\r\n\tpublic get dataFields() : IChartOptions\r\n\t{\r\n\t\treturn this._dataFields;\r\n\t}\r\n\r\nconst ngc = require('@angular/compiler-cli/src/main').main;\r\ngulp.task('ngc', function ()\r\n\t{\r\n\t\treturn ngc({\r\n\t\t\tproject: `${tmpFolder}/tsconfig.es5.json`\r\n\t\t}).then((exitCode) =>\r\n\t\t{\r\n\t\t\tif (exitCode === 1)\r\n\t\t\t{\r\n\t\t\t\t// This error is caught in the 'compile' task by the runSequence method callback\r\n\t\t\t\t// so that when ngc fails to compile, the whole compile process stops running\r\n\t\t\t\tthrow new Error('ngc compilation failed')\r\n\t\t\t}\r\n\t\t})\r\n\t});\r\n\r\nNOTES: not all such @type annotations but only some will cause this issue. If remove the @type line in\r\n the comment,it will build ok.\r\n\r\n```\r\n\r\n## Expected behavior\r\n<!-- Describe what the desired behavior would be. -->\r\nShould build without error.\r\n\r\n## Minimal reproduction of the problem with instructions\r\n<!--\r\nFor bug reports please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem via\r\nhttps://plnkr.co or similar (you can use this template as a starting point: http://plnkr.co/edit/tpl:AvJOMERrnz94ekVua0u5).\r\n-->\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n<!-- Describe the motivation or the concrete use case. -->\r\n\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 4.4.5\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [ x] Chrome (desktop) version XX\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: XX  <!-- run `node --version` -->\r\n- Platform:  <!-- Mac, Linux, Windows -->\r\nnpm@3.10.10\r\nnode@v6.10.1\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>when can this angular integrate \"closure compiler\"?</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>jackzhp</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[x ] Feature request\r\n</code></pre>\r\n\r\n## Current behavior\r\ncurrently works with webpack.\r\n\r\n## Expected behavior\r\nwork with closure compiler.\r\n\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Allow compilation with TypeScript 2.5</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>rkirov</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>A small number of types need to be adjusted. The changes seem to be\r\nbackwards compatible with TS 2.4.</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>fix(compiler-cli): avoid producing source mappings for host views</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>chuckjaz</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>The host view doesn't map back to user code so the template compiler\r\nproduces a blank `url` for them.\r\n\r\n## PR Type\r\nWhat kind of change does this PR introduce?\r\n\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[x] Bugfix\r\n```\r\n\r\n## What is the current behavior?\r\n<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->\r\n\r\nThe source maps would contain a file mapping \"../../\" or similar.\r\n\r\n## What is the new behavior?\r\n\r\nThe source maps no longer contain an invalid file name.\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[x] No\r\n```\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Why use compiler-cli instead of  tsc-wrapped?</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>DavidParks8</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>If I am writing a node command line tool that internally compiles angular code, why should I use compiler-cli instead of tsc-wrapped? What is the difference between them?</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>misspelled polyfill</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>johnpapa</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## PR Checklist\r\nPlease check if your PR fulfills the following requirements:\r\n\r\n- [ ] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit\r\n- [ ] Tests for the changes have been added (for bug fixes / features)\r\n- [ ] Docs have been added / updated (for bug fixes / features)\r\n\r\n\r\n## PR Type\r\nWhat kind of change does this PR introduce?\r\n\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[ ] Bugfix\r\n[ ] Feature\r\n[ ] Code style update (formatting, local variables)\r\n[ ] Refactoring (no functional changes, no api changes)\r\n[ ] Build related changes\r\n[ ] CI related changes\r\n[ ] Documentation content changes\r\n[ ] angular.io application / infrastructure changes\r\n[ ] Other... Please describe:\r\n```\r\n\r\n## What is the current behavior?\r\n<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->\r\n\r\nIssue Number: N/A\r\n\r\n\r\n## What is the new behavior?\r\n\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[ ] No\r\n```\r\n\r\n<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->\r\n\r\n\r\n## Other information\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Fix for issue #19960, parse a path containing # correctly</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>sboden</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## PR Checklist\r\nPlease check if your PR fulfills the following requirements:\r\n\r\n- [ ] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit\r\n- [ ] Tests for the changes have been added (for bug fixes / features)\r\n- [ ] Docs have been added / updated (for bug fixes / features)\r\n\r\n\r\n## PR Type\r\nThis fix allows a # to appear in the path to an Angular project. parseLazuRoute() splitted on '#' and took item 0 and 1 from the result. This fails if there was a '#' in the path itself.\r\n\r\n<!-- Please check the one that applies to this PR using \"x\". -->\r\n```\r\n[X] Bugfix\r\n[ ] Feature\r\n[ ] Code style update (formatting, local variables)\r\n[ ] Refactoring (no functional changes, no api changes)\r\n[ ] Build related changes\r\n[ ] CI related changes\r\n[ ] Documentation content changes\r\n[ ] angular.io application / infrastructure changes\r\n[ ] Other... Please describe:\r\n```\r\n\r\n## What is the current behavior?\r\n<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->\r\n\r\nIssue Number: 19960\r\n\r\n\r\n## What is the new behavior?\r\nThe fix makes it possible to use '#' in the path to an angular project\r\n\r\n## Does this PR introduce a breaking change?\r\n```\r\n[ ] Yes\r\n[x] No\r\n```\r\n\r\n<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->\r\n\r\n\r\n## Other information\r\nI tested it by retrofitting the code into an Angular app. It may need a second pair of eyes to check it out.\r\nThe compiler stuff is easier to test in v4 than it is in v5.</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>angular projects fail on # in the path</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>sboden</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td><!--\r\nPLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.\r\n\r\nISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.\r\n-->\r\n\r\n## I'm submitting a...\r\n<!-- Check one of the following options with \"x\" -->\r\n<pre><code>\r\n[ ] Regression (a behavior that used to work and stopped working in a new release)\r\n[X] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n[ ] Feature request\r\n[ ] Documentation issue or request\r\n[ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n</code></pre>\r\n\r\n## Current behavior\r\nIf an angular project is on a path containing a # somewhere it will fail to start up.\r\n\r\n\r\n## Expected behavior\r\nA # is just like any other character.\r\n\r\n\r\n## Minimal reproduction of the problem with instructions\r\n\r\nmkdir test#\r\ncd test#\r\nng new hello-app\r\ncd hello-app\r\nng serve\r\n\r\n\r\n## What is the motivation / use case for changing the behavior?\r\nA bug report in angular-cli which I debugged to here,\r\nI have a fix for 5.x, I also have a fix for v4.4.x\r\n\r\n\r\n## Environment\r\n\r\n<pre><code>\r\nAngular version: 5.0.0-rc.6\r\n<!-- Check whether this is still an issue in the most recent Angular version -->\r\n\r\nBrowser:\r\n- [x] Chrome (desktop) version XX\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX\r\n \r\nFor Tooling issues:\r\n- Node version: 6.9.5 (installed to debug v4.4.x)\r\n- Platform:  All\r\n\r\nOthers:\r\n<!-- Anything else relevant?  Operating system version, IDE, package manager, HTTP server, ... -->\r\n</code></pre>\r\n</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Component lifecycle hooks not firing if another component calls detectChanges during the first component's first ngOnChanges call</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>trevorade</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td>## I'm submitting a...\r\n\r\n- [ ] Regression (a behavior that used to work and stopped working in a new release)\r\n- [X] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->\r\n- [ ] Feature request\r\n- [ ] Documentation issue or request\r\n- [ ] Support request => Please do not submit support request here, instead see https://github.com/angular/angular/blob/master/CONTRIBUTING.md#question\r\n\r\n## Current behavior\r\n\r\nIf two components displayed at the same time (the first existing, the second being added to the page) and code run during the second component's `ngOnChanges` results in the first component calling `ChangeDetectorRef.detectChanges`, the second component will not receive `ngOnInit`, `ngAfterContentInit`, nor `ngAfterViewInit`.\r\n\r\n## Expected behavior\r\n\r\nEven if the first component calls `detectChanges`, the second component should continue to receive lifecycle hooks.\r\n\r\n## Minimal reproduction of the problem with instructions\r\n\r\nPlease see repro and steps here: http://plnkr.co/edit/N9k8TTvKOUpDEVul03pK?p=preview\r\n\r\nThis is probably not as minimal as it could be.  I boiled down a larger example I was working on.\r\n\r\n## What is the motivation / use case for changing the behavior?\r\n\r\nThis is just an undesirable bug.  This particular repro is slightly convoluted (though I'm actively working on a larger version of this for use with configuring a single application toolbar).  In general, I believe this sort of issue could arise in many more instances.\r\n\r\n## Environment\r\n\r\nAngular version: 2.4.1 (I'm not sure how to test 2.5 RC in Plunker).\r\n\r\nBrowser:\r\n- [X] Chrome (desktop) version 62\r\n- [ ] Chrome (Android) version XX\r\n- [ ] Chrome (iOS) version XX\r\n- [ ] Firefox version XX\r\n- [ ] Safari (desktop) version XX\r\n- [ ] Safari (iOS) version XX\r\n- [ ] IE version XX\r\n- [ ] Edge version XX</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<th>Title</th>
+				<td>Some fixes for common bugs in HttpClient</td>
+			</tr>
+			<tr>
+				<th>User Login</th>
+				<td>alxhub</td>
+			</tr>
+			<tr>
+				<th>Assignee Login</th>
+				<td>null</td>
+			</tr>
+			<tr>
+				<th>Body</th>
+				<td></td>
+			</tr>
+		</table>
+		<br>
+	</body>
+</html>

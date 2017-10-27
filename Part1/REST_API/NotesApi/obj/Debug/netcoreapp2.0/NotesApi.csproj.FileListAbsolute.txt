@@ -1,0 +1,22 @@
+/Users/goss/Projects/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.deps.json
+/Users/goss/Projects/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.runtimeconfig.json
+/Users/goss/Projects/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.runtimeconfig.dev.json
+/Users/goss/Projects/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.dll
+/Users/goss/Projects/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.pdb
+/Users/goss/Projects/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.csproj.CoreCompileInputs.cache
+/Users/goss/Projects/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.AssemblyInfoInputs.cache
+/Users/goss/Projects/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.AssemblyInfo.cs
+/Users/goss/Projects/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.dll
+/Users/goss/Projects/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.pdb
+/Users/goss/Projects/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.csprojResolveAssemblyReference.cache
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.deps.json
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.runtimeconfig.json
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.runtimeconfig.dev.json
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.dll
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/bin/Debug/netcoreapp2.0/NotesApi.pdb
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.csprojResolveAssemblyReference.cache
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.csproj.CoreCompileInputs.cache
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.AssemblyInfoInputs.cache
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.AssemblyInfo.cs
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.dll
+/Users/goss/Random Crap/Resume/Denver Job Hunting/LevelsBeyond/Part1/REST_API/NotesApi/obj/Debug/netcoreapp2.0/NotesApi.pdb
